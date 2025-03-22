@@ -8,12 +8,26 @@
     <link rel="stylesheet" href="mycss.css">
 </head>
 <body>
-    <div id="header">
-        <h1>RSzulim GitHub Home on UZ</h1>
+    <div id="head">
+        <h1>RSzulim GitHub Home on UZ!</h1>
     </div>
 
-    <div id="footer">
+    <div id="content">
+
+    </div>
+    <div id="foot">
         RS2025
     </div>
 </body>
+<style>
+    body {
+        display: flex; /* This sets the body to use flexbox layout */
+        flex-direction: column; /* This arranges the flex items (children of body) in a column */
+        min-height: 100vh; /* This ensures the body takes at least the full height of the viewport */
+        margin: 0; /* This removes the default margin around the body */
+    }
+    #content {
+        flex: 1; /* This makes the content area expand to fill the available space */
+    }
+</style>
 </html>
